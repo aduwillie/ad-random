@@ -1,0 +1,17 @@
+{
+  "name": "ad-random",
+  "version": "1.0.0",
+  "description": "A simple randomizer for stuffs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Adu Williams",
+  "license": "MIT",
+  "dependencies": {
+    "node-uuid": "^1.4.8"
+  }
+}
