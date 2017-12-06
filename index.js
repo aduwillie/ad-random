@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 const random = (min, max, inclusive) => {
     const difference = inclusive ? (max - min + 1) : (max - min);
-    return Math.random() * difference + min;
+    return Math.floor(Math.random() * difference + min);
 }
 
 const randomHex = (length) => {
